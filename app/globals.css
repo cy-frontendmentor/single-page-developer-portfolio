@@ -10,14 +10,20 @@
 
 @layer utilities {
   .heading-xl {
-    @apply text-[88px] leading-[88px] -tracking-[2.5px];
+    @apply text-[88px] font-bold leading-[88px] -tracking-[2.5px];
   }
 
   .heading-l {
-    @apply text-5xl leading-[56px] -tracking-[1.5px];
+    @apply text-5xl font-bold leading-[56px] -tracking-[1.5px];
   }
 
   .heading-m {
-    @apply text-[24px] leading-[32px];
+    @apply text-[24px] font-bold leading-[32px];
+  }
+
+  .roy-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
   }
 }
