@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply grid min-h-screen place-content-center bg-black text-white;
+  }
+}
+
+@layer utilities {
+  .heading-xl {
+    @apply text-[88px] leading-[88px] -tracking-[2.5px];
+  }
+
+  .heading-l {
+    @apply text-5xl leading-[56px] -tracking-[1.5px];
+  }
+
+  .heading-m {
+    @apply text-[24px] leading-[32px];
+  }
+}
