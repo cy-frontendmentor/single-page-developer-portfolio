@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply grid min-h-screen place-content-center bg-black text-white;
+    @apply min-h-screen  bg-black text-white;
   }
 }
 
@@ -25,5 +25,11 @@
     display: grid;
     width: 100%;
     grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
+  }
+
+  .form-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(445px, 1fr));
   }
 }

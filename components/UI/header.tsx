@@ -4,7 +4,7 @@ import patternRing from "../../public/images/pattern-rings.svg";
 import Link from "next/link";
 const Header = () => {
   return (
-    <header className="relative max-w-[1110px] overflow-hidden  xl:overflow-visible ">
+    <header className="relative z-0 mx-auto max-w-[1110px] overflow-hidden xl:overflow-visible ">
       <div className="absolute top-[124px] -left-[342px] md:top-[86px] md:-left-[265px] sl:top-[113px] ">
         <Image
           src={patternRing}
@@ -26,13 +26,13 @@ const Header = () => {
 
       <Navigation></Navigation>
 
-      <div className="relative grid justify-items-center px-4 pb-[80px] md:justify-items-start md:pl-8 md:pr-[290px] md:pt-[151px]  md:pb-[60px] sl:pr-[404px] sl:pt-[198px] sl:pb-[219px] xl:pl-0 ">
+      <div className="relative grid justify-items-center px-4 pb-[80px] md:justify-items-start md:pl-8 md:pr-[290px] md:pt-[151px]  md:pb-[60px] sl:pr-[404px] sl:pt-[198px] sl:pb-[219px] sl:pl-0 ">
         <Image
           src="/images/image-profile-mobile.webp"
           alt="profile-pic"
           height={383}
           width={174}
-          className="mb-10 justify-items-center md:hidden"
+          className="-z-30 mb-10 justify-items-center md:hidden"
         ></Image>
         <div className=" absolute top-0 right-0 -z-30 hidden md:block">
           <Image
@@ -40,7 +40,7 @@ const Header = () => {
             alt="profile-pic"
             height={600}
             width={322}
-            className=" "
+            className=" -z-50 "
           ></Image>
         </div>
         <div className=" absolute top-0 right-0 -z-30 hidden sl:block">
@@ -49,10 +49,10 @@ const Header = () => {
             alt="profile-pic"
             height={720}
             width={445}
-            className=" "
+            className=" -z-50 "
           ></Image>
         </div>
-        <div className=" grid gap-y-6 text-center md:min-h-[449px]   md:gap-y-0 md:text-left">
+        <div className=" grid items-center gap-y-6 text-center   md:min-h-[449px] md:gap-y-0 md:text-left">
           <h1 className=" sl:heading-xl text-[40px] leading-[40px] -tracking-[1.14px] md:mb-[60px] md:max-w-[706px] md:-translate-x-[2.05px] md:gap-y-0 md:text-[72px] md:leading-[72px] sl:mb-[43px]">
             Nice to meet you! I&apos;m {""}
             <span
@@ -69,7 +69,7 @@ const Header = () => {
           </p>
           <Link
             href="#contact"
-            className=" inline-block justify-self-center border-b-2 border-green pb-[10px] text-base  font-bold leading-[26px] tracking-[2.29px] md:justify-self-start md:text-left "
+            className=" inline-block  self-center justify-self-center border-b-2 border-green pb-[10px] text-base  font-bold leading-[26px] tracking-[2.29px] transition-all hover:text-green md:justify-self-start md:text-left "
           >
             CONTACT ME
           </Link>
