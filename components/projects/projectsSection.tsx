@@ -36,7 +36,7 @@ const DUMMY_DATA = [
 
 const ProjectsSection = () => {
   return (
-    <section className=" my-20 max-w-[1110px] md:mt-0">
+    <section className=" my-20 mx-auto max-w-[1110px] md:mt-0">
       <div className=" px-4">
         <div className="mb-10 flex items-center justify-between">
           <h2 className=" -leading-[1.14px] sl:heading-xl text-[40px] font-bold leading-[40px] -tracking-[2.05px] md:text-[72px] md:leading-[72px]">

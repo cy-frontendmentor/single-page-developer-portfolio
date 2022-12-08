@@ -4,7 +4,7 @@ import ProjectsSection from "../components/projects/projectsSection";
 import Footer from "../components/UI/footer";
 const page = () => {
   return (
-    <div className=" mx-auto flex max-w-[1440px] flex-col items-center overflow-hidden xl:px-[165px] ">
+    <div className=" mx-auto flex max-w-[1440px] flex-col overflow-hidden  ">
       <Header></Header>
 
       <SkillSection></SkillSection>

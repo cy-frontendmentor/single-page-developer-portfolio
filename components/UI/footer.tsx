@@ -4,8 +4,8 @@ import patternRing from "../../public/images/pattern-rings.svg";
 const Footer = () => {
   return (
     <div className="">
-      <footer className=" relative grid max-w-[1440px] flex-col bg-dark-grey px-4  pt-[60px] md:px-[30px]  sl:px-[165px] ">
-        <div className="absolute top-[436px] -left-[343px] md:top-[547px] md:-left-[368px] sl:top-[113px] ">
+      <footer className=" relative flex max-w-[1440px] flex-col justify-center bg-dark-grey px-4  pt-[60px] md:px-[30px]  sl:px-[165px] ">
+        <div className="absolute top-[436px] -left-[343px] md:top-[547px] md:-left-[368px] sl:-left-[205px] sl:top-[327px] ">
           <Image
             src={patternRing}
             alt=""
@@ -14,8 +14,7 @@ const Footer = () => {
             className=""
           ></Image>
         </div>
-
-        <div className=" justify-self-center">
+        <div>
           <Form></Form>
         </div>
         <div className="mt-[87px] ">

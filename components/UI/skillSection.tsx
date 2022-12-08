@@ -4,8 +4,8 @@ import patternRing from "../../public/images/pattern-rings.svg";
 
 const SkillSection = () => {
   return (
-    <section className="relative  w-full   max-w-[1110px] px-4  ">
-      <div className="absolute -bottom-[65px] -right-[358px] md:top-[387px] md:-right-[362px] sl:-right-[239px] sl:top-[253px]  ">
+    <section className="relative  mx-auto   w-full max-w-[1110px] px-4  ">
+      <div className="absolute -bottom-[65px] -right-[358px] md:top-[387px] md:-right-[362px] sl:-right-[404px] sl:top-[253px]  ">
         <Image
           src={patternRing}
           alt=""
